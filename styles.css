@@ -6,48 +6,46 @@
 .page {
     margin: auto;
     background-color: #FFFFFF;
-    width: 375px;
+
 
 }
 
 .top {
     background-color: hsl(356, 100%, 66%);
-    height: 500px;
+    height: 50%;
     border-bottom-left-radius:80px;
 
 
 }
 
 .menu {
-    padding: 20px;
-    height: 50px;
+    padding: 5vh;
     display: flex;
     justify-content: space-between;
 
 }
 .text_box{
-    width: 200px;
     display: flex;
-    margin: auto;
+    margin: 5vw;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
 .title_text{
-   padding-top: 100px;
+   padding-top: 5vh;
    color:hsl(0, 0%, 100%);
 
-    font-size: large;
+    font-size: 10vmin;
     font-weight: bold;
 }
 .subtitle_text{
-    padding-top: 20px;
+    padding-top: 5vh;
     color:hsl(0, 0%, 100%);
-    font-size: small;
+    font-size: 7vmin;
 
 }
 .button_menu{
-    padding-top: 50px;
+    padding: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -56,11 +54,11 @@
     border: none;
     border-radius: 12px;
     color: hsl(356, 100%, 66%);
-    padding: 20px;
+    padding: 2vmin;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 5vmin;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -69,11 +67,11 @@
     border:2px solid #FFFFFF;
     border-radius: 20px;
     color: white;
-    padding: 20px;
+    padding: 2vmin;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 5vmin;
     margin: 4px 2px;
     cursor: pointer;
 }
