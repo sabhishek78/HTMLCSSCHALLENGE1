@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 .page {
     margin: auto;
     background-color: #FFFFFF;
@@ -41,7 +44,7 @@
 .subtitle_text{
     padding-top: 5vh;
     color:hsl(0, 0%, 100%);
-    font-size: 7vmin;
+    font-size: 5vmin;
 
 }
 .button_menu{
@@ -74,4 +77,108 @@
     font-size: 5vmin;
     margin: 4px 2px;
     cursor: pointer;
+}
+.middle-heading{
+    padding: 10vh;
+    color:#000000;
+    text-align: center;
+    font-size: 8vmin;
+    font-weight: bold;
+}
+.middle-div-heading{
+    padding: 2vh;
+    color:#000000;
+    text-align: center;
+    font-size: 6vmin;
+    font-weight: bold;
+}
+.middle-div-text{
+    padding: 1vh;
+    color:gray;
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.middle-subsection{
+    padding: 10vh;
+}
+.middle-section{
+    padding: 5vh;
+}
+.desktop_editor
+{
+    float: right;
+}
+.cell_phone_div{
+    display: flex;
+    background-color: hsl(237, 23%, 32%);
+    background-image: url("images/bg-pattern-circles.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow: visible;
+    height:50vh;
+    border-bottom-left-radius:80px;
+    border-top-right-radius:80px;
+}
+.cell_phone_div_heading{
+    padding: 2vh;
+    color:#FFFFFF;
+    text-align: right;
+    font-size: 6vmin;
+    font-weight: bold;
+}
+.cell_phone_div_text{
+    padding: 1vh;
+    color:gray;
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.cell_phone_container{
+    position: relative;
+    top:-50px;
+}
+.footer{
+    margin-top: 30vh;
+    padding: 10vw;
+    display: flex;
+    border-top-right-radius:80px;
+    background-color: hsl(237, 23%, 32%);
+    height: 50vh;
+}
+.col1{
+    flex:1;
+    color: #FFFFFF;
+
+}
+.col2{
+    flex: 1;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+
+}
+.col3{
+    flex: 1;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+
+}
+.col4{
+    flex:1;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+
+}
+.footer_heading{
+    font-size: 3vmin;
+    font-weight: bold;
+    padding: 1vh;
+}
+.footer_text{
+    font-size: 2vmin;
+    font-weight: normal;
+    padding: 1vh;
 }
